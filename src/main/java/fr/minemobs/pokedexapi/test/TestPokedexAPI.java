@@ -13,5 +13,6 @@ public class TestPokedexAPI {
         System.out.println("Pokemon count : " + pokemonCount());
         System.out.println("Pokemon : " + getPokemon(658)[1].getName());
         System.out.println(Arrays.toString(getLeagues()));
+        System.out.println(Arrays.toString(getTypes()));
     }
 }
